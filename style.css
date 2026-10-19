@@ -1,0 +1,150 @@
+/* style.css - Tema Pink Lucu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff0f5; /* Lavender Blush / Pink Sangat Muda */
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+/* Header & Navigasi */
+header {
+    background-color: #ffb6c1; /* Light Pink / Pink Pastel */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(255, 182, 193, 0.4);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #d1477a; /* Pink Tua / Magenta Manis */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px; /* Lebih melengkung agar lucu */
+    margin: 0 5px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #ffffff;
+}
+
+/* Konten Utama */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px; /* Sudut membulat */
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3);
+    border-top: 8px solid #ff69b4; /* Aksen Hot Pink di atas */
+}
+
+h1 {
+    color: #d1477a;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #ffb6c1; /* Garis putus-putus lucu */
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Styling Tabel Profil */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-table th, .profile-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ffe4e1; /* Misty Rose */
+}
+
+.profile-table th {
+    background-color: #ffb6c1;
+    color: #5c2c3e;
+    width: 30%;
+}
+
+/* Styling Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    background-color: #ffc0cb; /* Pink */
+    color: #6b3342;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(255, 192, 203, 0.5);
+}
+
+/* Form Kontak */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffb6c1;
+    border-radius: 8px;
+    background-color: #fffaf0;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #ff69b4;
+}
+
+.contact-form button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(255, 105, 180, 0.4);
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #d1477a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffb6c1;
+    color: #5c2c3e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(255, 182, 193, 0.4);
+}
